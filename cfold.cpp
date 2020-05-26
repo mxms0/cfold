@@ -156,7 +156,6 @@ static int idaapi callback(void *, hexrays_event_t event, va_list va) {
                     // It's not great, but it'll do in the meantime 
                     collapse_scopes(cfunc);
                 }
-                cfunc->verify(ALLOW_UNUSED_LABELS, true);
             }
             break;
         default:

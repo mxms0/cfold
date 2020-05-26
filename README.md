@@ -1,6 +1,6 @@
 cfold - Slightly better code folding for IDA Pro.
 
-Right click to Fold, right click to Unfold. Also saves to the database.
+Right click to Fold, right click to Unfold. Also saves to the database. Unfortunately folding sometimes moves around when re-creating the tree due to lack of proper APIs and also how the tree maturity works.
 
 Examples:
 
